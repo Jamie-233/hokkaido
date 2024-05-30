@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "module": "ESNext",
+        "allowSyntheticDefaultImports": true,
+        "strict": true
+    },
+    "include": ["src/**/*"] // 确保包括你的源代码文件
+}
