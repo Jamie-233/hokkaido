@@ -1,12 +1,22 @@
-export default [
+export const publicRoutes = [
+  {
+    path: '/login',
+    name: 'Login',
+    component: () => import('@/layout/Login.vue')
+  },
+  {
+    path: '/home',
+    name: 'Home',
+    component: () => import('@/layout/index.vue')
+  },
   {
     path: '/',
-    name: 'Dashboard',
-    component: () => import('@/views/layout/Dashboard.vue')
+    name: 'Product',
+    component: () => import('@/layout/components/product/index.vue')
   },
   {
     path: '/car',
     name: 'Car',
-    component: () => import('@/views/layout/Sidebar.vue')
+    component: () => import('@/layout/Sidebar.vue')
   }
 ]

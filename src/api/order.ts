@@ -1,7 +1,7 @@
 import request from '@/utils/request'
 
-export const getCategory = () => {
+export const getSellList = () => {
   return request({
-    url: '/category'
+    url: '/sell-list'
   })
 }

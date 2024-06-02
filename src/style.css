@@ -102,6 +102,10 @@ section {
 }
 body {
   line-height: 1;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB,
+    Microsoft YaHei, Arial, sans-serif;
+  /* font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'Meiryo',
+    'メイリオ', 'Osaka', 'MS PGothic', 'arial', sans-serif; */
 }
 ol,
 ul {
